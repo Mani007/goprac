@@ -2,6 +2,7 @@ package main
 
 import "fmt"
 
+// token1 := "asdasd" // you cannot do this outside the function scope
 func main() {
 	fmt.Println("Variables here")
 	// String variables
@@ -23,4 +24,7 @@ func main() {
 	println(webadd)    // its string
 	webadd = "new"     // you can chage the value but not the type
 	//webadd = 25 // error type cannot be chaged
+	// No var style
+	token := "asasda" // declared without the var keyword
+	println(token)
 }
