@@ -16,6 +16,9 @@ func main() {
 	fmt.Printf(" Variable type is %T\n", someint)
 	// Default value for un initialized int
 	var defaultval int32
-	fmt.Println(defaultval)
+	fmt.Println(defaultval) // it will be zero
 	fmt.Printf(" Variable type is %T\n", defaultval)
+	// inplicit type
+	var webadd = "abc" // you cannot use '' insted use ""
+	println(webadd)    // its string
 }
