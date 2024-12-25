@@ -21,4 +21,6 @@ func main() {
 	// inplicit type
 	var webadd = "abc" // you cannot use '' insted use ""
 	println(webadd)    // its string
+	webadd = "new"     // you can chage the value but not the type
+	//webadd = 25 // error type cannot be chaged
 }
