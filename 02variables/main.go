@@ -11,4 +11,7 @@ func main() {
 	var isLog bool = true
 	fmt.Println(isLog)
 	fmt.Printf(" Variable type is %T\n", isLog)
+	var someint int32 = 25
+	fmt.Println(someint)
+	fmt.Printf(" Variable type is %T\n", someint)
 }
