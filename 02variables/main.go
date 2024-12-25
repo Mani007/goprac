@@ -14,4 +14,8 @@ func main() {
 	var someint int32 = 25
 	fmt.Println(someint)
 	fmt.Printf(" Variable type is %T\n", someint)
+	// Default value for un initialized int
+	var defaultval int32
+	fmt.Println(defaultval)
+	fmt.Printf(" Variable type is %T\n", defaultval)
 }
