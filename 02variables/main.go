@@ -5,6 +5,8 @@ import "fmt"
 // token1 := "asdasd" // you cannot do this outside the function scope
 
 // var token1 = "asdasd" // you can do this outside the function scope
+
+const Logintoken string = "dfadfa" // Contant with capital letters are public and small letter are private by scope in go
 func main() {
 	fmt.Println("Variables here")
 	// String variables
@@ -29,4 +31,5 @@ func main() {
 	// No var style
 	token := "asasda" // declared without the var keyword
 	println(token)
+	println(Logintoken)
 }
