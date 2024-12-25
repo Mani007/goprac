@@ -3,6 +3,8 @@ package main
 import "fmt"
 
 // token1 := "asdasd" // you cannot do this outside the function scope
+
+// var token1 = "asdasd" // you can do this outside the function scope
 func main() {
 	fmt.Println("Variables here")
 	// String variables
